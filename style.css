@@ -1,0 +1,250 @@
+
+
+body {
+  background-image: url('images/sbg.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 786px;
+  height: 804px;
+  margin: 0;
+}
+
+.navi{
+width: 786px;
+height: 70px;
+background: grey;
+float: left;
+display: inline-block;
+float: left;
+}
+
+.navi:focus{
+  background: green;
+  border: 1px solid red;
+}
+.nav{
+  text-align: right;
+}
+
+@media screen and (max-width: 525px) {
+  #top-menu  {
+    display:none;
+  }
+  .nav label {
+    display: block;
+  }
+}
+
+/*@media only screen and (max-width:526px) {
+ .nav label {
+display: block;}
+}*/
+
+#top-menu {
+  float: right;
+  margin-right: 10px;
+}
+
+#logo {
+float: left;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: left;
+margin-left: 80px;
+margin-top: 23px;
+color: #FFFFFF;
+}
+
+.nav label{
+font-size: 26px;
+margin: 0 40px 0 0;
+color: white;
+line-height: 70px;
+}
+
+
+#top-menu a {
+  text-decoration:none;
+  height: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: inline-block;
+  color: #FFFFFF;
+  margin-top: 23px;
+  margin-right: 10px;
+
+}
+
+#top-menu svg {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+.download-icon {
+margin-right: 6px;
+width: 20px;
+height: 20px;
+vertical-align: middle;
+}
+
+[type="navi"]:focus {
+    border: : 3ps solid blue;
+}
+
+.download-icon {
+  margin-right: 6px;
+}
+/*.red path{
+  fill:red;
+}*/
+.sign-header h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  padding-top:31px;
+  text-align:center;
+
+  color: #FFFFFF;
+}
+
+.sign-header {
+    position:relative;
+    top: -39px;
+    left: 20px;
+    width: 324px;
+    height: 150px;
+    background: linear-gradient(90deg, #AB47BC 0%, #7B1FA2 100%);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.12), 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+.sign-icons {
+  text-align:center;
+  margin-top: 36px;
+}
+.sign-icons a {
+  margin-left:18px;
+  margin-right:18px;
+  text-decoration: none;
+}
+
+/* identical to box height */
+color: rgba(0, 0, 0, 0.87);
+}
+
+form {
+  text-align: center;
+}
+
+.sign-classical {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: rgba(0, 0, 0, 0.87);
+text-align: center;
+margin-top: -7px;
+margin-bottom: 33px
+}
+
+#sign-up form label {
+  margin-left:26px;
+  width: 28px;
+}
+
+#sign-up form input{
+  width: 269px;
+  margin-left: 11px;
+  padding: 0;
+
+}
+/*
+    Form elements styles
+*/
+button {
+  position:relative;
+
+  top: 30px;
+  left: 110px;
+  width: 324px;
+  height: 150px;
+}
+
+#sign-up {
+    background-color: white;
+    width: 353px;
+    height: 517px;
+    margin: 160px auto 0;
+}
+
+.underline {
+    border: none;
+    border-bottom: 1px solid grey;
+    height: 50px;
+}
+
+.label {
+  height: 100px;
+}
+
+.sub {
+    background: transparent;
+    border: none;
+    color: #9C27B0;
+    display: flex;
+    margin: auto 0 auto;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+}
+
+#foot-menu{
+  margin-top: 30px;
+}
+
+#foot-menu a, footer p {
+  color:#fff;
+  line-height: 14px;
+  margin-top: 50px;
+}
+
+#foot-menu a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #FFFFFF;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+footer p {
+position: absolute;
+width: 232px;
+height: 17px;
+
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+margin-left:279px;
+color: #FFFFFF;
+text-align: center;
+margin-bottom: 100px;
+}
