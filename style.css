@@ -26,23 +26,25 @@ float: left;
   text-align: right;
 }
 
+
 @media screen and (max-width: 525px) {
   #top-menu  {
     display:none;
   }
   .nav label {
-    display: block;
-  }
-  #foot-menu label{
-    display:block;
+    display: block !important;
   }
   #foot-menu a {
     display: none;
   }
+  #foot-menu label{
+    display: block !important;
+  }
   footer p {
-    display:none;
+    display: none;
   }
 }
+
 
 /*@media only screen and (max-width:526px) {
  .nav label {
@@ -55,23 +57,24 @@ display: block;}
 }
 
 #logo {
-float: left;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-text-align: left;
-margin-left: 80px;
-margin-top: 23px;
-color: #FFFFFF;
+  float: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 23px;
+  color: #FFFFFF;
 }
 
 .nav label{
-font-size: 26px;
-margin: 0 40px 0 0;
-color: white;
-line-height: 70px;
+  font-size: 26px;
+  margin: 0 40px 0 0;
+  color: white;
+  line-height: 70px;
+  display: none;
 }
 
 
@@ -220,11 +223,15 @@ display: flex;
 justify-content: space-between;
 }
 
+#foot-menu{
+  margin-top: 20px;
+}
 #foot-menu label{
   font-size: 26px;
-  padding: 20px;
   color: white;
   line-height: 70px;
+  display: none;
+  margin-left: 10px;
 }
 
 #foot-menu a, footer p {
@@ -242,6 +249,7 @@ justify-content: space-between;
 
   color: #FFFFFF;
   margin-left: 20px;
+  margin-top: 20px;
   text-decoration: none;
 }
 
