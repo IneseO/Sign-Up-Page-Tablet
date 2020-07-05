@@ -33,6 +33,15 @@ float: left;
   .nav label {
     display: block;
   }
+  #foot-menu label{
+    display:block;
+  }
+  #foot-menu a {
+    display: none;
+  }
+  footer p {
+    display:none;
+  }
 }
 
 /*@media only screen and (max-width:526px) {
@@ -211,8 +220,11 @@ display: flex;
 justify-content: space-between;
 }
 
-#foot-menu{
-  margin-top: 30px;
+#foot-menu label{
+  font-size: 26px;
+  padding: 20px;
+  color: white;
+  line-height: 70px;
 }
 
 #foot-menu a, footer p {
@@ -247,4 +259,5 @@ margin-left:279px;
 color: #FFFFFF;
 text-align: center;
 margin-bottom: 100px;
+padding:10px;
 }
